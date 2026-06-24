@@ -6,7 +6,7 @@
         </linearGradient>
     </defs>
     <rect width="800" height="200" fill="url(#grad1)" rx="15" />
-    <text x="50%" y="50%" font-family="Arial" font-size="40" fill="white" font-weight="bold" text-anchor="middle" dominant-baseline="middle">
+    <text x="50%" y="50%" font-family="Arial" font-size="35" fill="white" font-weight="bold" text-anchor="middle" dominant-baseline="middle">
         Awesome Physics-Informed Neural Networks
     </text>
     <text x="50%" y="75%" font-family="Arial" font-size="20" fill="white" text-anchor="middle" dominant-baseline="middle">
