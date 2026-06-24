@@ -1,11 +1,20 @@
-# Awesome-Physics-Informed-Neural-Networks
+<div align="center">
+  <img src="assets/banner.svg" alt="Banner" />
+</div>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+# 🌟 Awesome-Physics-Informed-Neural-Networks
 ## Physics-Informed Neural Networks (PINNs): Evolution, Variants, & Applications
 
 Physics-Informed Neural Networks (PINNs) represent a groundbreaking convergence between deep learning and classical computational physics. Traditional neural networks act as pure data-driven black boxes, frequently violating fundamental physical constraints when data is scarce. PINNs solve this by embedding physical laws—expressed as Partial Differential Equations (PDEs)—directly into the neural network's loss function using Automatic Differentiation (AD). The network is penalized not just for failing to match data points, but for violating conservation laws, boundary conditions, or physical symmetries.
 
 ---
 
-## 1. The Chronological Evolution
+## 🕰️ 1. The Chronological Evolution
 
 The architectural progression of PINNs highlights a transition from simple boundary-value solvers to highly adaptive, multi-scale, and stochastic physical simulators.
 
@@ -23,7 +32,7 @@ flowchart LR
 
 ---
 
-## 2. Core Mathematical & Architectural Variants
+## 📐 2. Core Mathematical & Architectural Variants
 
 These structural variants alter how physical laws are formulated, partitioned, or calculated to improve training stability and handle multi-scale physical phenomena.
 
@@ -36,7 +45,7 @@ These structural variants alter how physical laws are formulated, partitioned, o
 
 ---
 
-## 3. Stochastic & Uncertainty Quantification Types
+## 🎲 3. Stochastic & Uncertainty Quantification Types
 
 These advanced variations adapt PINNs to handle environmental noise, random initialization states, and unpredictable material behaviors.
 
@@ -47,7 +56,7 @@ These advanced variations adapt PINNs to handle environmental noise, random init
 
 ---
 
-## 4. Real-World Engineering Applications
+## 🏗️ 4. Real-World Engineering Applications
 
 | Domain | Application | Year | Original Paper |
 | :--- | :--- | :--- | :--- |
