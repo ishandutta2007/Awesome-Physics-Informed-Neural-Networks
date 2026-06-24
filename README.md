@@ -9,7 +9,12 @@ Physics-Informed Neural Networks (PINNs) represent a groundbreaking convergence 
 
 The architectural progression of PINNs highlights a transition from simple boundary-value solvers to highly adaptive, multi-scale, and stochastic physical simulators.
 
-[Vanilla PINNs (2019)] -------> [XPINNs / Domain Decomposition] -------> [Neural Operators (FNO / DeepONet)](Single Global Network)          (Distributed Local Subnetworks)           (Infinite-Dimensional PDE Mapping)
+```mermaid
+flowchart LR
+    A["Vanilla PINNs (2019)<br/>(Single Global Network)"] ---> B["XPINNs / Domain Decomposition<br/>(Distributed Local Subnetworks)"] 
+    B ---> C["Neural Operators (FNO / DeepONet)<br/>(Infinite-Dimensional PDE Mapping)"] 
+```
+
 *   **The Vanilla PINN Era (Raissi et al., 2019)**
     *   *Concept:* The foundation. Parameterized a physical state using a standard Multi-Layer Perceptron (MLP). Computed exact spatial and temporal derivatives using automatic differentiation, adding the residual of the target PDE directly to the loss function.
 *   **Domain Decomposition & Parallelization (cPINNs / XPINNs, ~2020–2022)**
