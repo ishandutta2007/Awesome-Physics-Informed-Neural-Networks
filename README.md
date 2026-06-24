@@ -63,3 +63,14 @@ These advanced variations adapt PINNs to handle environmental noise, random init
 | [**Subsurface Fluid Dynamics & Reservoir Engineering**](docs/subsurface_fluid_dynamics_pinn.md) | Simulates oil, water, or gas migration through porous underground rock structures over decades. PINNs incorporate the Darcy Flow equations to accurately forecast reservoir depletion using highly sparse drill-hole data. | 2020 | [Physics-informed neural networks for solving forward and inverse flow problems via the Boltzmann-BGK formulation](https://arxiv.org/abs/2004.14816) |
 | [**Aerodynamic Shape Optimization**](docs/aerodynamic_shape_optimization_pinn.md) | Replaces computationally expensive, multi-hour Computational Fluid Dynamics (CFD) grid simulations. PINNs embed the Naviers-Stokes equations to instantly predict airflow velocity and pressure profiles around experimental aircraft wings or vehicle chassis. | 2020 | [Surrogate modeling for fluid flows based on physics-constrained deep learning without simulation data](https://doi.org/10.1016/j.cma.2019.112732) |
 | [**Biomedical Cardiovascular Modeling**](docs/biomedical_cardiovascular_modeling_pinn.md) | Models patient-specific blood flow trajectories through complex, irregular arterial blockages (aneurysms). PINNs fuse low-resolution MRI scan imagery with exact fluid mechanics equations to evaluate localized wall shear stress without requiring invasive surgical sensors. | 2020 | [Machine learning in cardiovascular flows modeling: Predicting arterial blood pressure from non-invasive 4D flow MRI data using physics-informed neural networks](https://arxiv.org/abs/1905.04362) |
+
+## ⭐ Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Physics-Informed-Neural-Networks&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Physics-Informed-Neural-Networks&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Physics-Informed-Neural-Networks&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Physics-Informed-Neural-Networks&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
